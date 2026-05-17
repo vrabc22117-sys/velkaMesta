@@ -10,6 +10,8 @@ typedef struct
     float rozloha;
 } Tmesto;
 
+
+
 int main()
 {
     printf("Hello world!\n");
