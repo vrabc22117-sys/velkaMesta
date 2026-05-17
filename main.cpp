@@ -10,10 +10,19 @@ typedef struct
     float rozloha;
 } Tmesto;
 
+void nacteniMest(Tmesto mesta[])
+{
+    mesta[0] = (Tmesto){"Praha", 1397880, "Hlavni mesto Praha", 496.21};
+}
 
-
+void test_nacteni()
+{
+  Tmesto mesta[1];
+  nacteniMest(mesta);
+  printf("nactena Praha\n");
+}
 int main()
 {
-    printf("Hello world!\n");
+    test_nacteni();
     return 0;
 }
